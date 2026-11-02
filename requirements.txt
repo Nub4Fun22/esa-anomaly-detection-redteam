@@ -1,0 +1,4 @@
+# Python dependencies for the anomaly detection project.
+# Versions are lower-bounded to the ones verified during development.
+numpy>=2.4.4
+scikit-learn>=1.8.0
