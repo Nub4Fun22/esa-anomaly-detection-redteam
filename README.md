@@ -70,6 +70,15 @@ anomalous but engineered to **evade** the detector, and measures the
 Full write-up: standard detection metrics plus the adversarial results, the key
 finding, documented limitations, and recommendations.
 
+### 5. Exploit walkthrough (`docs/exploit_walkthrough.md`)
+
+A step-by-step narrative of how I reasoned my way into the detector: reading its
+own code, asking simple "the code assumes X — what if I do the opposite?"
+questions, and turning each answer into a working evasion. This is the
+penetration-testing mindset in long form, with the exact code and math behind
+the 100%-evasion exploit. **Start here if you want to see the thinking, not just
+the numbers.**
+
 ---
 
 ## Key result — why the "best" detector was not the safe one
